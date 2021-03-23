@@ -12,7 +12,7 @@ ELIZA is a computer program that was developed from 1964 to 1966 and simulated a
 
 _A conversation with Eliza from [Wikipedia](https://en.wikipedia.org/wiki/ELIZA)_
 
-![](/Docs/ELIZA.png)
+![Image](/Docs/ELIZA.png)
 
 Depending on the approach of the game the player will interact in different ways with NPCs, on modern games there usually are some sort of interaction with them but the difficulty comes from giving the player the illusion of freedom while developing a natural driven story.
 Now we are going to classify them based on the level of interaction player-NPC, and how the game shows these interactions.
@@ -24,13 +24,13 @@ We can see an example of this type of interaction in the majority of the pokemon
 
 _Pokemon Gold/Silver (1999)_
 
-![](https://github.com/Marckitus/Personal_Research_Dialog_Systems/blob/main/Docs/non_branched/non_branched_pokemon.gif)
+![Image](/Docs/non_branched/non_branched_pokemon.gif)
 
 Another example of a non-branching dialog system are games from the franchise Final Fantasy, where almost all interactions with NPCs are railroaded and similar to cutscenes. In this example we can see the group talking around the fire and the player is just an expectator looking at the scene without interacting, nevertheless if the player is already engaged with the story and characters this system won't break the inmersion.
 
 _Final Fantasy VII (1997)_
 
-![](https://github.com/Marckitus/Personal_Research_Dialog_Systems/blob/main/Docs/non_branched/non_branched_FFVII.gif)
+![Image](/Docs/non_branched/non_branched_FFVII.gif)
 
 The game with one of the greatest dialog systems of the last years is Hades, this rogelite makes talking to the same NPCs after every run fun, with a cast of characters with awesome design and narratives that won't repeat a single interaction with the player in 60 or more hours into the game, in Hades every time you die or finish a run Zagreus the protagonist returns to home an the player can decide to talk to the differents NPCs on the area and giving then presents, but when it comes to the dialog system it's just a non-branching dialog but with an incredible amount of options making it feel unique every time the player chooses to talk to someone, adding also that the cast of NPCs are reactive to how your last run whent. A perfect example of a non-branching dialog system at its brightest.
 I also recommend this video that talks in profundity about this dialog system:
@@ -38,7 +38,7 @@ I also recommend this video that talks in profundity about this dialog system:
 
 _Hades (2018)_
 
-![](https://github.com/Marckitus/Personal_Research_Dialog_Systems/blob/main/Docs/non_branched/non_branched_hades.gif)
+![Image](/Docs/non_branched/non_branched_hades.gif)
 
 ### Branching Dialog
 
@@ -51,13 +51,13 @@ As an example Persona 5 does this multiple times during the history adding maybe
 
 _Persona 5 Royal (2019)_
 
-![](https://github.com/Marckitus/Personal_Research_Dialog_Systems/blob/main/Docs/branced/branched_P5.png)
+![Image](/Docs/branced/branched_P5.png)
 
 In some games the objective of the conversation can be improving the players relationship with the NPC, and the players try to find the “best” response to get more “friendly points” with that NPC, Persona 5 does this when the player decides to pass the morning or evening with a friend, another recent example is Haven that gives the player levels and abilities in regards how much the relationship between the two protagonist develops.
 
 _Haven (2020)_
 
-![](https://github.com/Marckitus/Personal_Research_Dialog_Systems/blob/main/Docs/branced/branched_haven.gif)
+![Image](/Docs/branced/branched_haven.gif)
 
 There’s another approach to the branching dialog system that was more popular in the western, in games simulating roleplaying tabletop games, the player options are usually written word by word, the player know exactly how his avatar will respond but breaks the flow of the conversation taking a long time between response and response while the player reads the possible options and thinks which one to choose.
 
@@ -65,25 +65,25 @@ One example of this approach are the divinity original sin games, those of the p
 
 _Divinity: Original Sin II (2017)_
 
-![](https://github.com/Marckitus/Personal_Research_Dialog_Systems/blob/main/Docs/branced/branched_divinity.png)
+![Image](/Docs/branced/branched_divinity.png)
 
 One little add-on that made the conversations feel more natural without long silences was implemented on Mass Effect, where the player could read the possible responses he had while the NPC was still talking, helping thus to follow the flow of a real conversation. But, at the same time making simpler options so the player had time to read them in time.
 
 _Mass Effect (2007)_
 
-![](https://github.com/Marckitus/Personal_Research_Dialog_Systems/blob/main/Docs/branced/branched_mass_effect.jpg)
+![Image](/Docs/branced/branched_mass_effect.jpg)
 
 This concept has evolved during the years and we have seen the player responses shorten to the point it can be confusing and often the avatar will act differently from what the player expected based on the options he had, Fallout 4 was highly criticized for a poorly made and not intuitive dialog system where the options where too ambiguous and the player didn't know hot his character would act, leading to paths the players didn't intend to go.
 
 _Fallout 4 (2015)_
 
-![](https://github.com/Marckitus/Personal_Research_Dialog_Systems/blob/main/Docs/branced/branched_fallout4.jpg)
+![Image](/Docs/branced/branched_fallout4.jpg)
 
 There is also a mod that reveals all dialogue options before you choose.
 
 _Fallout 4 (2015) [Fully Dialogue Interface](https://www.nexusmods.com/fallout4/mods/1235/?) mod. Image from [Polygon](https://www.polygon.com/fallout-4/2015/11/18/9756972/fallout-4-dialogue-mod-pc-xbox-playstation)._
 
-![Image](/branced/branched_fallout4_mod.jpg)
+![](/Docs/branced/branched_fallout4_mod.jpg)
 
 
 
