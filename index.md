@@ -137,6 +137,7 @@ Another example could be the Sims saga where the interactions don't follow any d
 
 _Sims 4 (2014)_
 
+![](/Docs/systemic_interactions/systemic_interaction_sims4.jpg)
 
 You can use the [editor on GitHub](https://github.com/Marckitus/Personal_Research_Dialog_Systems/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
