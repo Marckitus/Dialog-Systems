@@ -73,6 +73,11 @@ _Mass Effect (2007)_
 
 ![](https://github.com/Marckitus/Personal_Research_Dialog_Systems/blob/main/Docs/branced/branched_mass_effect.jpg)
 
+This concept has evolved during the years and we have seen the player responses shorten to the point it can be confusing and often the avatar will act differently from what the player expected based on the options he had, Fallout 4 was highly criticized for a poorly made and not intuitive dialog system where the options where too ambiguous and the player didn't know hot his character would act, leading to paths the players didn't intend to go.
+
+_Fallout 4 (2015)_
+
+![](https://github.com/Marckitus/Personal_Research_Dialog_Systems/blob/main/Docs/branced/branched_fallout4.jpg)
 
 
 
