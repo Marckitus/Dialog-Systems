@@ -79,8 +79,11 @@ _Fallout 4 (2015)_
 
 ![](https://github.com/Marckitus/Personal_Research_Dialog_Systems/blob/main/Docs/branced/branched_fallout4.jpg)
 
+There is also a mod that reveals all dialogue options before you choose.
 
+_Fallout 4 (2015) [Fully Dialogue Interface](https://www.nexusmods.com/fallout4/mods/1235/?) mod. Image from [Polygon](https://www.polygon.com/fallout-4/2015/11/18/9756972/fallout-4-dialogue-mod-pc-xbox-playstation)._
 
+![Image](/branced/branched_fallout4_mod.jpg)
 
 
 
