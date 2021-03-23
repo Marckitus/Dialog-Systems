@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Dialog Systems
 
 You can use the [editor on GitHub](https://github.com/Marckitus/Personal_Research_Dialog_Systems/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
