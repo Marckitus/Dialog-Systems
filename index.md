@@ -62,3 +62,18 @@ We can see an example of this type of interaction in the majority of the pokemon
 _Pokemon Gold/Silver (1999)_
 
 ![](https://github.com/Marckitus/Personal_Research_Dialog_Systems/blob/main/Docs/non_branched/non_branched_pokemon.gif)
+
+Another example of a non-branching dialog system are games from the franchise Final Fantasy, where almost all interactions with NPCs are railroaded and similar to cutscenes. In this example we can see the group talking around the fire and the player is just an expectator looking at the scene without interacting, nevertheless if the player is already engaged with the story and characters this system won't break the inmersion.
+
+_Final Fantasy VII (1997)_
+
+![](https://github.com/Marckitus/Personal_Research_Dialog_Systems/blob/main/Docs/non_branched/non_branched_FFVII.gif)
+
+The game with one of the greatest dialog systems of the last years is Hades, this rogelite makes talking to the same NPCs after every run fun, with a cast of characters with awesome design and narratives that won't repeat a single interaction with the player in 60 or more hours into the game, in Hades every time you die or finish a run Zagreus the protagonist returns to home an the player can decide to talk to the differents NPCs on the area and giving then presents, but when it comes to the dialog system it's just a non-branching dialog but with an incredible amount of options making it feel unique every time the player chooses to talk to someone, adding also that the cast of NPCs are reactive to how your last run whent. A perfect example of a non-branching dialog system at its brightest.
+I also recommend this video that talks in profundity about this dialog system:
+[The System Behind Hades Astounding Dialogue](https://www.youtube.com/watch?v=bwdYL0KFA_U)
+
+_Hades (2018)_
+
+![](https://github.com/Marckitus/Personal_Research_Dialog_Systems/blob/main/Docs/non_branched/non_branched_hades.gif)
+
