@@ -12,7 +12,7 @@ ELIZA is a computer program that was developed from 1964 to 1966 and simulated a
 
 _A conversation with Eliza from [Wikipedia](https://en.wikipedia.org/wiki/ELIZA)_
 
-![](https://github.com/Marckitus/Personal_Research_Dialog_Systems/blob/main/Docs/ELIZA.png)
+![](/Docs/ELIZA.png)
 
 Depending on the approach of the game the player will interact in different ways with NPCs, on modern games there usually are some sort of interaction with them but the difficulty comes from giving the player the illusion of freedom while developing a natural driven story.
 Now we are going to classify them based on the level of interaction player-NPC, and how the game shows these interactions.
