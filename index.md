@@ -1,6 +1,5 @@
 ## Dialog Systems
 
-# Dialog Systems
 ## Personal Research into video games Dialog Systems
 
 Dialog Systems have been an essential part in many video games for decades, they vary in form and use but lots of games have a unique flavor thanks to a well designed, written and adequate dialog system implementation.
