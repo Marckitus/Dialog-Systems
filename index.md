@@ -85,7 +85,57 @@ _Fallout 4 (2015) [Fully Dialogue Interface](https://www.nexusmods.com/fallout4/
 
 ![](/Docs/branced/branched_fallout4_mod.jpg)
 
+### Hub-and-Spokes Dialog
 
+This method gives the player more freedom to explore all the paths and responses, where at the start of a conversation the player can ask from a “hub” where he chooses one option and after the NPC response the player can choose a different option from the same “hub” and even repeat the same response, until the players decides to stop the conversation with a hub option.
+
+There may be “subhubs” hidden within a certain response and the player can reenter to those “subhubs” with a dialogue option from the principal “hub” as many times he wants.
+
+These interactions give total freedom to the player to discover as much narrative as he wants but not following a natural conversation. Also the NPC has infinite time and paciencie to answer the players as much as they want, so this option is not recommended in high action situations. 
+
+As an example we have the shops in undertale, the best NPCs to talk about the narrative of the game, and how the world functions, they will sell you items and the player can also talk to them using the Hub-and-Spokes dialog system.
+
+_Undertale (2015), Hub example_
+
+![](/Docs/hub_and_spokes/undertale_hub.png)
+
+_Undertale (2015), Subhub example when the players selects talk opinion in the hub_
+
+![](/Docs/hub_and_spokes/undertale_subhub.PNG)
+
+### Parser-Driven Dialog
+
+This is the method used with ELIZA, and has seen some use in the early days of dialog systems, but nowadays it's rarely implemented in any game. This system lets the player write their responses word by word, but it can be misunderstood by the machine creating some rather strange situations.
+
+In the past there have been text adventures completely playable by writing inputs, but more that an actual Parser-Driven Dialog those game had options hidden behind key words the player had to guess, and the interaction with other NPCs was similar to the Branching/Hub-and-Spokes dialog.
+
+One example of written text adventure is Zork where the player wrote every action he did.
+You can try it yourself here: [play Zork](http://textadventures.co.uk/games/play/5zyoqrsugeopel3ffhz_vq)
+
+_Zork (1977)_
+
+![](/Docs/pareser_driven/parser_zorg.PNG)
+
+One more actual game that used this dialog system was Façade in 2005, where the player tries to deal with the problems of a couple. This game uses Artificial Intelligence to direct the conversation around the words the user puts in his sentences, these games may look the more interactive compared with the others dialog systems, but making a good enough AI that can understand the player intentions is complex and simple mistakes can totally break the immersion.
+
+_Façade (2005)_
+
+![](/Docs/pareser_driven/parser_fa%C3%A7ade.gif)
+
+### Parser-Driven Dialog
+
+There are games that don’t use a conversation system itself, but implement some sort of interactions with NPC, like gestures or signals thet in many cases give a reward to the players.
+We won't get too deep into this system because it’s implemented very differently than the others, nevertheless here are some examples of games using the systemic interactions.
+
+In Spore the player can get allies to help him fight or persuade other creatures using systemic interactions. Where depending on the skills of your avatar you will be able to befriend more creatures by filling the bar on the head of the creature.
+
+_Spore (2008)_
+
+![](/Docs/systemic_interactions/systemic_interactions_spore.jpg)
+
+Another example could be the Sims saga where the interactions don't follow any dialog system we have seen, where the player can choose how the avatars interact with each other, but not in a conversation itself, you can decide how the avatars will act but and what topics will they talk about but the narrative itself is created by the player.
+
+_Sims 4 (2014)_
 
 
 You can use the [editor on GitHub](https://github.com/Marckitus/Personal_Research_Dialog_Systems/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
