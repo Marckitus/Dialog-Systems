@@ -1,4 +1,4 @@
-# Dialog Systems
+## Dialog Systems
 
 ## Personal Research into video games Dialog Systems
 
