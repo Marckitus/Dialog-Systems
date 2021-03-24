@@ -211,7 +211,7 @@ The dialogueExample ID as the parent of the entire chart we have seen, having as
 
 Diferent classes and functions implemented.
 
-# DialogueSystem
+### DialogueSystem
 This class loads the entire XML document and divides the information in the diferent three other classes. It also renders the dialogue on screen, but that is not recomended, the code solution handed it's a little demostartion of what could be done, but it's not as efficient as it could be, it's preferable to have a diferent module that prints de dialogue. But here the DialogueSystem Update does it. The way this code work is by using the LoadDialogue, LoadNodes, and LoadOptions to load the main tree, the nodes and the responses respectively.
 ```
 class DialogueSystem : public Module
@@ -249,7 +249,7 @@ private:
 };
 ```
 
-# DialogueTree
+### DialogueTree
 This simple class stores the ID of every dialogue and has a vector with the diferent childs(nodes) atached to him so we can go to every node from its parent tree dialogue.
 ```
 class DialogueTree
@@ -265,7 +265,7 @@ public:
 };
 ```
 
-# DialogueNode
+### DialogueNode
 This class stores an string with the text the NPC will say when this node ID matches the currentNode ID, obviouly has a ID definded as nodeID to distinguish between them. It a vector similar to the one the DialogueTree had that lists the diferent options the node has, also the List of answersList was added to print the player options on screen.
 
 ```
@@ -283,7 +283,7 @@ public:
 };
 ```
 
-# DialogueOption
+### DialogueOption
 This class stores the nodes child, that are the players options can choose, those store the text the player says in a string, the node their are pointing to with the variable nextNode and also, a another variable called returnCode, this has no use in this demo, but it can be used to trigger special events (quest for example) when the return code is diferent than 0.
 
 ```
@@ -303,15 +303,15 @@ public:
 ## TODO's
 These TODO's won't be difficult at all, they will be small changes a developer can do on the code to make his unique and apealing dialogue system.
 
-# TODO 1: Writte your own story
+### TODO 1: Writte your own story
 - Easy enough, you can change the XML archive called dialogue_tree.xml inside the output folder, to test it change the first node text and dialogue options to see what happens.
 
-# TODO 2: New Routes
+### TODO 2: New Routes
 - Once you know how to change the diferent nodes try adding a new one. Dont forget to give the node an ID and the options must have a nextNode value to see where the path will go, also if you want to end the conversation I've put 101 and 100 as "quest accepted" and "end of conversation" fell free to use those, vary them or create new ones.
 
 ## Solutions
 
-# TODO 1
+### TODO 1
 It had not much difficulty, it's playing with the text on each node and with the options in each dialogue to create your own story.
 Quick example:
 ```
@@ -320,7 +320,7 @@ Quick example:
       <dialogue option="1: Not you again" returnCode="0" nextNode="1"/>
       <dialogue option="2: General Kenobi" returnCode="0" nextNode="2"/>
 ```
-# TODO 2
+### TODO 2
 To add a new Route the desinger has to be a little more careful, and take into consideration the dialogue nextNodes and nodes IDs
 Example of another route at the end of the dialogue:
 ```
@@ -334,3 +334,14 @@ Example of another route at the end of the dialogue:
       <dialogue option="2: Thats creepy" returnCode="0" nextNode="100"/>
     </node>
 ```
+
+# Conclusion
+
+### Pros and cons
+It's preety easy to use, and expand upon what we already have, can make diverse routes and paths the player to take.
+
+There aren't funtions to make the text apear one letter at a time, or funtions to give more live to the text by moving the letters and so on
+Also it would have been nice implemented a ui that adapted to the text.
+
+### Final Thoughts
+Does the job, but needs serious visual improvements to implement this dialog system in any game that isn't a text adventure.
