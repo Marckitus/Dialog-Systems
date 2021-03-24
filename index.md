@@ -120,7 +120,7 @@ One more actual game that used this dialog system was Façade in 2005, where the
 
 _Façade (2005)_
 
-![](/Docs/pareser_driven/parser_fa%C3%A7ade.gif)
+![](/Docs/pareser_driven/parser_facade.gif)
 
 ### Parser-Driven Dialog
 
@@ -159,6 +159,10 @@ Once we how the chart is going to work, the more important step. Actually writti
 The example with the dialogue written:
 
 ![](/Docs/Charts/branching_written_chart.png)
+
+Now that we have defined our dialogue tree, we need to make clear that we will also need a pointer, that follows the player path so we know where the dialogues is going and alse where it came from, this pointer will be called currentNode, and as the name says will be pointing the node we are actually in.
+
+
 
 You can use the [editor on GitHub](https://github.com/Marckitus/Personal_Research_Dialog_Systems/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
