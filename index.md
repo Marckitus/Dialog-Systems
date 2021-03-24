@@ -151,9 +151,14 @@ Here are some examples, this first one is a branching dialogue chart.
 ![](/Docs/Charts/branching_blank_chart.png)
 
 Then once the dialogue tree is finished, we must assing diferent ID to every node, esencialy a variable that makes us able to localize the node, and also make another varibale called for example nextNode, that tells what node the chosen option is pointing to, so we can follow a path made by the diferent nextNode numbers, knowing which nodes the player has visited.
-Here we have the same chart as last but with the diferent nodes ID and what node the options will take us too described by a variable.
+Here we have the same chart as last but with the diferent nodes ID and what node the options will take us too described by a variable:
 
 ![](/Docs/Charts/branching_variables_chart.png)
+
+Once we how the chart is going to work, the more important step. Actually writting the dialogue the NPC and player will have, this can be done before the chart and I also recomend you to do it first, it is structured like this to make the branching system easier to understand without the text already added.
+The example with the dialogue written:
+
+![](/Docs/Charts/branching_written_chart.png)
 
 You can use the [editor on GitHub](https://github.com/Marckitus/Personal_Research_Dialog_Systems/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
