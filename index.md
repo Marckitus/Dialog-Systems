@@ -162,40 +162,38 @@ The example with the dialogue written:
 
 Now that we have defined our dialogue tree, we need to make clear that we will also need a pointer, that follows the player path so we know where the dialogues is going and alse where it came from, this pointer will be called currentNode, and as the name says will be pointing the node we are actually in.
 
+## Defining the data as XML
 
-
-You can use the [editor on GitHub](https://github.com/Marckitus/Personal_Research_Dialog_Systems/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+The way we are going to cointain all the dialogue information is with XML file, in these files the diferent branches will be divided this way:
+The dialogueExample ID as the parent of the entire chart we have seen, having as many childs as nodes we add, and those node will have also 1 child per each possible response the players has in the node. For example a dialogue with 5 nodes will have 5 childs called node each one with a diferent ID, and then every node will have another child per possible response the player has, as an example if the player can answer: yes or no, the node will have two childs, each one with a diferent nextNode value.
+```
+<dialogueTree>
+  <dialogueExample Id="0">
+    <node text="Hello do you have a moment?"  id="0">
+      <dialogue option="No sorry" returnCode="0" nextNode="1"/>
+      <dialogue option="Yes what is it?" returnCode="0" nextNode="2"/>
+    </node>
+    <node text="Thats to bad bye"  id="1">
+      <dialogue option="Bye" returnCode="0" nextNode="100"/>
+    </node>
+    <node text="I have a quest for you" id="2">
+      <dialogue option="Not interested" returnCode="0" nextNode="100"/>
+      <dialogue option="What do I have to do?" returnCode="0" nextNode="4"/>
+      <dialogue option="I dont work for free" returnCode="0" nextNode="3"/>
+    </node>
+    <node text="I can pay you five gold coins" id="3">
+      <dialogue option="Then we have a deal whats the quest about?" returnCode="0" nextNode="4"/>
+      <dialogue option="Thats not enough bye" returnCode="0" nextNode="100"/>
+    </node>
+    <node text="Killing some giant rats" id="4">
+      <dialogue option="Lets do it already" returnCode="1" nextNode="101"/>
+      <dialogue option="Im scared of rats" returnCode="0" nextNode="100"/>
+    </node>
+    <node text ="End of conversation R to talk again" id ="100">
+    </node>
+    <node text ="Mision accepted R to talk again" id ="101">
+    </node>
+  </dialogueExample>''
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Marckitus/Personal_Research_Dialog_Systems/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
