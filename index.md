@@ -143,6 +143,17 @@ With all the theory clear, now we can decide which dialogue system we want to im
 
 # Implementation
 
+After the implementation you will have a branched dialogue system ready to go, here we have a little demostration of the posibilities it has.
+The player can choose what to respond with the numerical buttons, and each decition goes down a diferent path.
+
+![](/Docs/captures/capture_1.PNG)
+
+If the player chosed the option 1: "No sorry"
+![](/Docs/captures/capture_2.PNG)
+
+If the player chosed the option 2: "Yes what is it?"
+![](/Docs/captures/capture_3.PNG)
+
 Making a branching system is just efficient, with little to no extra work we can use it as an non-branching system and also with some modifications it could work as a Hub-and-Spoke dialog system.
 
 Now, how do those trees see, and how can we desing them? One easy way is making our own charts to help us visualiza how the interactions will connect and which pathes the player could take.
@@ -170,24 +181,24 @@ The dialogueExample ID as the parent of the entire chart we have seen, having as
 <dialogueTree>
   <dialogueExample Id="0">
     <node text="Hello do you have a moment?"  id="0">
-      <dialogue option="No sorry" returnCode="0" nextNode="1"/>
-      <dialogue option="Yes what is it?" returnCode="0" nextNode="2"/>
+      <dialogue option="1: No sorry" returnCode="0" nextNode="1"/>
+      <dialogue option="2: Yes what is it?" returnCode="0" nextNode="2"/>
     </node>
     <node text="Thats to bad bye"  id="1">
-      <dialogue option="Bye" returnCode="0" nextNode="100"/>
+      <dialogue option="1: Bye" returnCode="0" nextNode="100"/>
     </node>
     <node text="I have a quest for you" id="2">
-      <dialogue option="Not interested" returnCode="0" nextNode="100"/>
-      <dialogue option="What do I have to do?" returnCode="0" nextNode="4"/>
-      <dialogue option="I dont work for free" returnCode="0" nextNode="3"/>
+      <dialogue option="1: Not interested" returnCode="0" nextNode="100"/>
+      <dialogue option="2: What do I have to do?" returnCode="0" nextNode="4"/>
+      <dialogue option="3: I dont work for free" returnCode="0" nextNode="3"/>
     </node>
     <node text="I can pay you five gold coins" id="3">
-      <dialogue option="Then we have a deal whats the quest about?" returnCode="0" nextNode="4"/>
-      <dialogue option="Thats not enough bye" returnCode="0" nextNode="100"/>
+      <dialogue option="1: Then we have a deal whats the quest about?" returnCode="0" nextNode="4"/>
+      <dialogue option="2: Thats not enough bye" returnCode="0" nextNode="100"/>
     </node>
     <node text="Killing some giant rats" id="4">
-      <dialogue option="Lets do it already" returnCode="1" nextNode="101"/>
-      <dialogue option="Im scared of rats" returnCode="0" nextNode="100"/>
+      <dialogue option="1: Lets do it already" returnCode="1" nextNode="101"/>
+      <dialogue option="2: Im scared of rats" returnCode="0" nextNode="100"/>
     </node>
     <node text ="End of conversation R to talk again" id ="100">
     </node>
@@ -287,6 +298,21 @@ public:
 	int returnCode;
 	int nextNode;
 };
-
-
 ```
+
+## TODO's
+These TODO's won't be difficult at all, they will be small changes a developer can do on the code to make his unique and apealing dialogue system.
+
+# TODO 1: Writte your own story
+- Easy enough, you can change the XML archive called dialogue_tree.xml, to test it change the first node text and dialogue options to see what happens.
+- Once you know how to change the diferent nodes try adding a new one. Dont forget to give the node an ID and the options must have a nextNode value to see where the path will go, also if you want to end the conversation I've put 101 and 100 as "quest accepted" and "end of conversation" fell free to use those, vary them or create new ones.
+
+# TODO 2:Implementing a non-branching system
+- How could you implement a non-branching system?
+- Clue: non-brancing equals branching with less options ;D.
+
+
+# TODO 3: Implementing a hub system
+- So the non-branching was easy, now use all you have learned and create a hub-and-spoke dialog system.
+- Clue: Not si diferent than the non-branchin, but it always comes back.
+
