@@ -139,6 +139,22 @@ _Sims 4 (2014)_
 
 ![](/Docs/systemic_interactions/systemic_interaction_sims4.jpg)
 
+With all the theory clear, now we can decide which dialogue system we want to implementate on our game, knowing what the cons and pros are for the diferent variables. So the one I will we explaining today it's branching systems, because those give flexible and quite interatives narrative options.
+
+# Implementation
+
+Making a branching system is just efficient, with little to no extra work we can use it as an non-branching system and also with some modifications it could work as a Hub-and-Spoke dialog system.
+
+Now, how do those trees see, and how can we desing them? One easy way is making our own charts to help us visualiza how the interactions will connect and which pathes the player could take.
+Here are some examples, this first one is a branching dialogue chart.
+
+![](/Docs/Charts/branching_blank_chart.png)
+
+Then once the dialogue tree is finished, we must assing diferent ID to every node, esencialy a variable that makes us able to localize the node, and also make another varibale called for example nextNode, that tells what node the chosen option is pointing to, so we can follow a path made by the diferent nextNode numbers, knowing which nodes the player has visited.
+Here we have the same chart as last but with the diferent nodes ID and what node the options will take us too described by a variable.
+
+![](/Docs/Charts/branching_variables_chart.png)
+
 You can use the [editor on GitHub](https://github.com/Marckitus/Personal_Research_Dialog_Systems/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
