@@ -193,7 +193,100 @@ The dialogueExample ID as the parent of the entire chart we have seen, having as
     </node>
     <node text ="Mision accepted R to talk again" id ="101">
     </node>
-  </dialogueExample>''
+  </dialogueExample>
 ```
 
+## Code
 
+Diferent classes and functions implemented.
+
+# DialogueSystem
+This class loads the entire XML document and divides the information in the diferent three other classes. It also renders the dialogue on screen, but that is not recomended, the code solution handed it's a little demostartion of what could be done, but it's not as efficient as it could be, it's preferable to have a diferent module that prints de dialogue. But here the DialogueSystem Update does it. The way this code work is by using the LoadDialogue, LoadNodes, and LoadOptions to load the main tree, the nodes and the responses respectively.
+```
+class DialogueSystem : public Module
+{
+public:
+	DialogueSystem();
+	DialogueSystem(Input* input, Render* render, Textures* tex)
+	{
+		this->input = input;
+		this->render = render;
+		this->tex = tex;
+	}
+	~DialogueSystem();
+
+	bool Start();
+	bool Update(float dt);
+	bool CleanUp();
+	void PerformDialogue(int treeId);
+	bool LoadDialogue(const char*);
+	bool LoadNodes(pugi::xml_node& trees, DialogueTree* oak);
+	bool LoadOptions(pugi::xml_node& text_node, DialogueNode* npc);
+	
+private:
+	int playerInput = 7;
+	int Id = 0;
+	std::vector <DialogueTree*> dialogueTrees;
+	DialogueNode* currentNode;
+	pugi::xml_document	dialogues;
+
+	Font* font;
+	Input* input;
+	Render* render;
+	Textures* tex;
+
+};
+```
+
+# DialogueTree
+This simple class stores the ID of every dialogue and has a vector with the diferent childs(nodes) atached to him so we can go to every node from its parent tree dialogue.
+```
+class DialogueTree
+{
+public:
+	DialogueTree() {};
+	~DialogueTree() {};
+
+
+public:
+	int treeId;
+	vector <DialogueNode*> dialogueNodes;
+};
+```
+
+# DialogueNode
+This class stores an string with the text the NPC will say when this node ID matches the currentNode ID, obviouly has a ID definded as nodeID to distinguish between them. It a vector similar to the one the DialogueTree had that lists the diferent options the node has, also the List of answersList was added to print the player options on screen.
+
+```
+class DialogueNode
+{
+public:
+	DialogueNode() {};
+	~DialogueNode() {};
+
+	DialogueNode(string Text);
+	string text;
+	vector <DialogueOption*> dialogueOptions;
+	List <string> answersList;
+	int nodeId;
+};
+```
+
+# DialogueOption
+This class stores the nodes child, that are the players options can choose, those store the text the player says in a string, the node their are pointing to with the variable nextNode and also, a another variable called returnCode, this has no use in this demo, but it can be used to trigger special events (quest for example) when the return code is diferent than 0.
+
+```
+class DialogueOption
+{
+public:
+	DialogueOption() {};
+	~DialogueOption() {};
+
+	DialogueOption(string Text, int ReturnCode, int NextNode);
+	string text;
+	int returnCode;
+	int nextNode;
+};
+
+
+```
