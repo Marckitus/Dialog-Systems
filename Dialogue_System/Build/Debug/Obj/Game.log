@@ -1,0 +1,12 @@
+﻿  App.cpp
+  DialogSystem.cpp
+C:\Users\Tomas\Desktop\Personal Research\Dialogue_System\Game\Source\App.cpp(221,37): warning C4018:  '<': no coinciden signed/unsigned
+C:\Users\Tomas\Desktop\Personal Research\Dialogue_System\Game\Source\DialogSystem.cpp(58,20): warning C4018:  '<': no coinciden signed/unsigned
+C:\Users\Tomas\Desktop\Personal Research\Dialogue_System\Game\Source\DialogSystem.cpp(70,20): warning C4018:  '<': no coinciden signed/unsigned
+C:\Users\Tomas\Desktop\Personal Research\Dialogue_System\Game\Source\DialogSystem.cpp(72,21): warning C4018:  '<': no coinciden signed/unsigned
+C:\Users\Tomas\Desktop\Personal Research\Dialogue_System\Game\Source\DialogSystem.cpp(84,38): warning C4018:  '<': no coinciden signed/unsigned
+  SceneManager.cpp
+  SceneTitle.cpp
+  Generando código...
+C:\Users\Tomas\Desktop\Personal Research\Dialogue_System\Game\Source\DialogSystem.cpp(86,21): warning C4018:  '<': no coinciden signed/unsigned
+  Game.vcxproj -> C:\Users\Tomas\Desktop\Personal Research\Dialogue_System\Build\Debug\Game.exe
