@@ -33,7 +33,7 @@ _Final Fantasy VII (1997)_
 
 ![Image](/Docs/non_branched/non_branched_FFVII.gif)
 
-The game with one of the greatest dialog systems of the last years is Hades, this rogelite makes talking to the same NPCs after every run fun, with a cast of characters with awesome design and narratives that won't repeat a single interaction with the player in 60 or more hours into the game, in Hades every time you die or finish a run Zagreus the protagonist returns to home an the player can decide to talk to the differents NPCs on the area and giving then presents, but when it comes to the dialog system it's just a non-branching dialog but with an incredible amount of options making it feel unique every time the player chooses to talk to someone, adding also that the cast of NPCs are reactive to how your last run whent. A perfect example of a non-branching dialog system at its brightest.
+The game with one of the greatest dialog systems of the last years is Hades, this rogelite makes talking to the same NPCs after every run fun, with a cast of characters with awesome design and narratives that won't repeat a single interaction with the player in 60 or more hours into the game, in Hades every time you die or finish a run Zagreus the protagonist returns to home an the player can decide to talk to the differents NPCs on the area and giving then presents, but when it comes to the dialog system it's just a non-branching dialog but with an incredible amount of options making it feel unique every time the player chooses to talk to someone, adding also that the cast of NPCs are reactive to how your last run went. A perfect example of a non-branching dialog system at its brightest.
 I also recommend this video that talks in profundity about this dialog system:
 [The System Behind Hades Astounding Dialogue](https://www.youtube.com/watch?v=bwdYL0KFA_U)
 
@@ -123,7 +123,7 @@ _Façade (2005)_
 
 ![](/Docs/pareser_driven/parser_facade.gif)
 
-### Parser-Driven Dialog
+### Systemic Interactions
 
 There are games that don’t use a conversation system itself, but implement some sort of interactions with NPC, like gestures or signals thet in many cases give a reward to the players.
 We won't get too deep into this system because it’s implemented very differently than the others, nevertheless here are some examples of games using the systemic interactions.
