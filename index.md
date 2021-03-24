@@ -1,6 +1,7 @@
 ## Dialog Systems
 
 ## Personal Research into video games Dialog Systems
+Research by Marc Pavon, student at CITM.
 
 Dialog Systems have been an essential part in many video games for decades, they vary in form and use but lots of games have a unique flavor thanks to a well designed, written and adequate dialog system implementation.
 
@@ -345,3 +346,14 @@ Also it would have been nice implemented a ui that adapted to the text.
 
 ### Final Thoughts
 Does the job, but needs serious visual improvements to implement this dialog system in any game that isn't a text adventure.
+
+## Documentation
+- [Defining Dialogue Systems Gamasutra article](https://www.gamasutra.com/view/feature/132116/defining_dialogue_systems.php)
+- [Efficient XML reading](https://www.gamasutra.com/view/feature/131087/efficient_xml_file_reading_for_.php?page=2)
+- [Realistic Dialogue Engine for Video Games](https://ir.lib.uwo.ca/cgi/viewcontent.cgi?referer=https://www.google.co.uk/&httpsredir=1&article=4141&context=etd)
+- [XMG Dialog System](https://xmgstudio.tumblr.com/post/139791670481/xmgdialoguetutorial)
+- [Brancing Dialogue System implemented in a game](https://etodd.io/2014/05/16/the-poor-mans-dialogue-tree/)
+- [Dialogue Tree systems for C++](https://github.com/darkfire613/chatter)
+- [Polygon Fallout 4 mod disscusion](https://www.polygon.com/fallout-4/2015/11/18/9756972/fallout-4-dialogue-mod-pc-xbox-playstation)
+- [How to create a dialogue tree with pointers](https://www.youtube.com/watch?v=W4TV-_-Wcw4)
+- [Eliza information](https://en.wikipedia.org/wiki/ELIZA)
