@@ -304,15 +304,33 @@ public:
 These TODO's won't be difficult at all, they will be small changes a developer can do on the code to make his unique and apealing dialogue system.
 
 # TODO 1: Writte your own story
-- Easy enough, you can change the XML archive called dialogue_tree.xml, to test it change the first node text and dialogue options to see what happens.
+- Easy enough, you can change the XML archive called dialogue_tree.xml inside the output folder, to test it change the first node text and dialogue options to see what happens.
+
+# TODO 2: New Routes
 - Once you know how to change the diferent nodes try adding a new one. Dont forget to give the node an ID and the options must have a nextNode value to see where the path will go, also if you want to end the conversation I've put 101 and 100 as "quest accepted" and "end of conversation" fell free to use those, vary them or create new ones.
 
-# TODO 2:Implementing a non-branching system
-- How could you implement a non-branching system?
-- Clue: non-brancing equals branching with less options ;D.
+## Solutions
 
-
-# TODO 3: Implementing a hub system
-- So the non-branching was easy, now use all you have learned and create a hub-and-spoke dialog system.
-- Clue: Not si diferent than the non-branchin, but it always comes back.
-
+# TODO 1
+It had not much difficulty, it's playing with the text on each node and with the options in each dialogue to create your own story.
+Quick example:
+```
+ <dialogueExample Id="0">
+    <node text="Hello there"  id="0">
+      <dialogue option="1: Not you again" returnCode="0" nextNode="1"/>
+      <dialogue option="2: General Kenobi" returnCode="0" nextNode="2"/>
+```
+# TODO 2
+To add a new Route the desinger has to be a little more careful, and take into consideration the dialogue nextNodes and nodes IDs
+Example of another route at the end of the dialogue:
+```
+ <node text="Killing some giant rats" id="4">
+      <dialogue option="1: Lets do it already" returnCode="1" nextNode="101"/>
+      <dialogue option="2: Im scared of rats" returnCode="0" nextNode="100"/>
+      <dialogue option="3: Why are they always rats?" returnCode="0" nextNode="5"/
+    </node>
+ <node text="They come from underground" id="5">
+      <dialogue option="1: That is not even true but fine i will kill them" returnCode="1" nextNode="101"/>
+      <dialogue option="2: Thats creepy" returnCode="0" nextNode="100"/>
+    </node>
+```
